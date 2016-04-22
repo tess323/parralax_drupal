@@ -563,7 +563,9 @@ ul.menu {
   clear: both;
   overflow: hidden;
   padding: 40px 0;
-  background: rgba(255, 255, 255, 0.83);
+background: url(../images/building.jpeg) center right no-repeat;
+  opacity: .4;
+
 }
 
 .container-wrap {
@@ -574,7 +576,7 @@ ul.menu {
 
 .homebanner{
   position: relative;  
-  background: url(../images/bg.jpg) no-repeat bottom #00afc4;
+  background: url(../images/piano.jpeg) no-repeat bottom #00afc4;
   font-size: 14px;
   background-size: cover;
   height: 400px;
@@ -582,7 +584,7 @@ ul.menu {
 
 .homebanner .region{
   padding: 10% 0;
-  background: url(../images/banner-pattern.png);
+  background: url(../images/piano.jpg);
   height: 100%;
 }
 
