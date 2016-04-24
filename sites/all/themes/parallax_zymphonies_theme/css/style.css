@@ -1960,7 +1960,7 @@ div.warning {
 }
 
 .parallax-block.two{
-  background: #edecf8;
+  background: white;
   opacity: 1;
 }
 
@@ -1983,7 +1983,8 @@ div.warning {
   text-align: center;
 }
 #home-block-three{
-  background: url(../images/fish.jpeg);
+  background: url(../images/fish.jpeg) no-repeat bottom;
+  height:800px;
   /*color: #fff;
   border: 0;*/
 }
