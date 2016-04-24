@@ -301,6 +301,7 @@ b {
   padding: 60px 0;
   z-index: 9;
   margin: 0 auto;
+  background:url()
 }
 
 .front #post-content {
@@ -563,7 +564,6 @@ ul.menu {
   clear: both;
   overflow: hidden;
   padding: 40px 0;
-background: url(../images/building.jpeg) center right no-repeat;
   opacity: .4;
 
 }
@@ -576,10 +576,10 @@ background: url(../images/building.jpeg) center right no-repeat;
 
 .homebanner{
   position: relative;  
-  background: url(../images/piano.jpeg) no-repeat bottom #00afc4;
+  background: url(../images/jellyfish.jpeg) no-repeat bottom #00afc4;
   font-size: 14px;
   background-size: cover;
-  height: 1000px;
+  height: 800px;
   margin-top: -50px;
 }
 
