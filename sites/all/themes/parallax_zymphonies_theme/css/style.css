@@ -719,6 +719,7 @@ aside .block {
 
 aside #user-login-form input.form-text {
   width: 100%;
+
 }
 
 /* 3 columns */
@@ -862,6 +863,9 @@ body.sidebar-second #sidebar-second {
 
 #footer-area ul.menu li a.active {
   color: #ddd;
+}
+#footer-credit{
+  visibility: hidden;
 }
 
 .region-front-welcome {
@@ -1358,7 +1362,11 @@ select.form-select {
   padding: 15px;
   border-radius: 2px;
   max-width: 100%;
-  background: #FFFEFE;
+  /*background: #FFFEFE;*/
+  background: #f1c40f;
+  color: #2c3e50;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 .password-suggestions ul li {
@@ -1499,8 +1507,8 @@ ol.search-results {
 #footer {
   overflow: hidden;
   clear: both;
-  background: #121212;
-  color: #fff;
+  background:#f39c12;
+  color:#2c3e50;
 }
 
 #footer h2{
@@ -1508,7 +1516,7 @@ ol.search-results {
 }
 
 #home-bottom-block *{
-  color: #ddd;
+  color: #2c3e50;
 }
 
 .footer_credit {
@@ -1516,6 +1524,7 @@ ol.search-results {
   padding: 10px 0;
   font-size: 13px;
   color: #999;
+  visibility: hidden;
 }
 
 .region-signup {
@@ -1645,9 +1654,10 @@ ol.search-results {
 ----------------------------*/
 
 #home-bottom-block {
-  background: #121212;
-  color: #fff;
+  background: #f39c12;
+  color: #2c3e50;
   padding: 20px 0 0 0;
+  opacity: .8;
 }
 
 .footer_block {
@@ -1944,7 +1954,6 @@ div.warning {
 
 .parallax-block{  
   background: url(../images/seals.jpeg) no-repeat bottom;
-  opacity: .4;
   border-bottom: 10px solid #fff;
   height:600px;
   width:100%;
@@ -1982,16 +1991,27 @@ div.warning {
 .parallax-block h2{
   text-align: center;
 }
+#block-block-12{
+ /* margin-left: 300*/
+}
 #home-block-three{
-  background: url(../images/fish.jpeg) no-repeat bottom;
-  height:800px;
+  background: url(../images/fish.jpeg) no-repeat bottom;;
+  height: 400px;
+  /*color: #fff;
+  border: 0;*/
+}
+#home-block-three p{
+  background: url(../images/fish.jpeg) no-repeat bottom;;
+  visibility: hidden;
   /*color: #fff;
   border: 0;*/
 }
 #home-block-four{
-  background: #00A9DF;
-  color: #fff;
+  background: white;
+  color: #2c3e50;
   border: 0;
+  height:800px;
+  opacity: 1;
 }
 
 .region ul li.node-readmore{
