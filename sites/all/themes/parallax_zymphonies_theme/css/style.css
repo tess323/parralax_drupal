@@ -101,7 +101,11 @@ h3 {
   font-family: 'Raleway', sans-serif;
 }
 
-p { margin-bottom: 15px; }
+p { 
+  margin-bottom: 15px;
+  color:#34495e;
+
+ }
 
 table {
   border-collapse: collapse;
@@ -564,7 +568,7 @@ ul.menu {
   clear: both;
   overflow: hidden;
   padding: 40px 0;
-  opacity: .4;
+  /*opacity: .4;*/
 
 }
 
@@ -783,7 +787,7 @@ body.sidebar-second #sidebar-second {
 
 .node h2.title a, 
 .page-title a{
-  color: #8E001C;
+  color: #f39c12;
   font-size: 100px;
 }
 
@@ -796,7 +800,7 @@ body.sidebar-second #sidebar-second {
   padding: 10px 0;
   overflow: hidden;
   text-align: left;
-  color: #8E001C;
+  color: #f39c12;
 
  
 }
@@ -1939,8 +1943,11 @@ div.warning {
 /*Parallax Block*/
 
 .parallax-block{  
-  background: #D3CEAA;
+  background: url(../images/seals.jpeg) no-repeat bottom;
+  opacity: .4;
   border-bottom: 10px solid #fff;
+  height:600px;
+  width:100%;
 }
 
 .parallax-block .region{
@@ -1953,7 +1960,8 @@ div.warning {
 }
 
 .parallax-block.two{
-  background: rgba(237, 236, 248, 0.81);
+  background: #edecf8;
+  opacity: 1;
 }
 
 .parallax-block.three{
@@ -1974,7 +1982,11 @@ div.warning {
 .parallax-block h2{
   text-align: center;
 }
-
+#home-block-three{
+  background: url(../images/fish.jpeg);
+  /*color: #fff;
+  border: 0;*/
+}
 #home-block-four{
   background: #00A9DF;
   color: #fff;
@@ -1988,9 +2000,11 @@ div.warning {
 }
 
 .node-readmore a{
-  background: #E7E8D1;
-  color: #424242;
+  background: #f1c40f;
+  color: #2c3e50;
+  /*width: 200px;*/
   padding: 10px 15px;
+  /*padding-right: 300px;*/
   display: block;
 }
 
